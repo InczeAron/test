@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Termékek árai</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+    table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px 50px 10px 5px;
+    text-align: left;
+    font-family: arial;
+    font-size: small;
+}
+th {
+    color: #1E459E;
+    background-color: #B9C9FE;
+    border-top: 5px solid #AABCFE;
+}
+td {
+    color: #7274A5;
+    background-color: #D0DAFD;
+    border-top: 3px solid #FFFFFF;
+}
+tr.paros td {
+         background-color: #eee;
+    }
+    tr.paratlan td {
+         background-color: #fff;
+    }
+    
+    header, footer 
+            {
+            padding: 0.3em; 
+            color: white;
+            background-color: silver;
+            clear: left;
+            }
+        ul  {
+            float:left;
+            width:100%; /* A menü az alatta levő szövegtől elválik, birtokolja a teljes vízszintes sávját. */
+            padding:0;
+            margin:0;
+            list-style-type:none;
+            }        
+        a   {
+            float:left;
+            width:6em; /* Fix szélességű gombok érhetők el. Érdemes azonban vigyázni ezzel a módszerrel, mert ha a szöveg nem fér ki, a dizájn szétesik. */
+            text-decoration:none; /* Ne legyen aláhúzva a link. */
+            color:white;
+            background-color:chocolate;
+            padding:0.2em 0.3em;
+            border-right:1px solid chocolate;
+            }
+     .active{
+            background-color:#C0C0C0;
+            }
+    a:hover { background-color:#C0C0C0} /* Az egérkurzorra színváltással reagál a menüpont. */
+    li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */
+    
+        /*1 {border-style: dotted}
+        h2 {border-style: double}*/
+        p {border-style: inset}
+        body {background-image: url('background.jpg')}
+        
+    </style>
+    <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    </head>
+    <body>
+        <ul>
+        <li><a href="index.html">Bemutatkozás</a></li>
+        <li><a href="termekek.html" class="active">Termékeink</a></li>
+        <li><a href="kapcsolat.html">Elérhetőségek</a></li>
+        <li><a href="uzenet.html">Írj nekünk</a></li>
+        </ul><br>
+        <header><p><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
+        <br>
+        <br><FONT COLOR="FFFFFF" FACE="Verdana, Arial">T E R M É K E I N K:
+        <br><br>
+        Tartós cikkek <span style="padding-left:2em">Fogyasztási cikkek</span><br>
+        </FONT>
+        <table>
+     <tr class="paratlan">
+          <td>Cukor: 120 Ft</td>
+          <td>Felvágott: 180 Ft/dkg</td>
+     </tr>
+     <tr class="paros">
+          <td>Liszt: 230 Ft</td>
+          <td>Tej: 150 Ft</td>
+     </tr>
+     <tr class="paratlan">
+          <td>Só: 58 Ft / kg</td>
+          <td>Kenyér: 210 Ft</td>
+     </tr>
+     <tr class="paros">
+          <td>Ecet: 109 Ft</td>
+          <td>Zsömle: 20 Ft</td>
+     </tr>
+</table>
+        
+    </body>
+</html>
