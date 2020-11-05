@@ -1,1 +1,1 @@
-# test ide tettem a Neumann Egyetem webprogramozás beadandó feladatát
+# ide tettem a Neumann Egyetem webprogramozás beadandó feladatát
