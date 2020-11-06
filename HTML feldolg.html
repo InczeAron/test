@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Üzenjen nekünk!</title>
+        <title>Feldolgozas</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
@@ -62,25 +62,16 @@ and open the template in the editor.
         </ul><br>
         <header><p><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
         <br>
-        <FONT COLOR="FFFFFF" FACE="Verdana, Arial">
-        <form action="HTML feldolg.html" method="POST">
-            Írja meg nekünk kérdését vagy észrevételét!<br><br>
-            Név:<br>
-            <input type="text" required placeholder="Add meg a neved" name="Felhasznalo"><br>
-        <br>
-        E-mail:<br>
-            <input type="email" required placeholder="Add meg a mail címed" name="Email"><br>
-        <br>
-        <input type="radio" name="nem" id="ffi" value="Férfi">
-        <label for="nem">Férfi</label><br>
-        <input type="radio" name="nem" id="no" value="Nő" checked>
-        <label for="nem">Nő</label><br><br>
-        Üzenet:<br>
-            <textarea name="cim" rows="5" cols="40" required></textarea>
-        <br>
-            <input type="submit" value="Elküldés">
-        </form>
-        </FONT>
-        
+         <img src="images.gif" width="57" height="47" style="float: left" alt="Email gifje" title="Üzenet jött!">
+        <br><FONT COLOR="FFFFFF" FACE="Verdana, Arial">
+         Önnek üzenete érkezett a honlapról!<br><br>
+        <?php
+        print "Feladó: <b>".$_POST['Felhasznalo']."</b><P>\n\n</P>";
+        print "Email cím: <b>".$_POST['Email']."</b><P>\n\n</P>";
+        print "Neme: <b>".$_POST['nem']."</b><P>\n\n</P>";
+        print "Az üzenet szövege: <br><br>".$_POST['cim'];
+        ?>
+         </FONT>
+         <br><br><ul><a href="index.html">Vissza a kezdőlapra</a></ul>
     </body>
 </html>
