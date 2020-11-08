@@ -26,7 +26,7 @@ and open the template in the editor.
             }        
         a   {
             float:left;
-            width:6em; /* Fix szélességű gombok érhetők el. Érdemes azonban vigyázni ezzel a módszerrel, mert ha a szöveg nem fér ki, a dizájn szétesik. */
+            width:auto; /* Fix szélességű gombok érhetők el. Érdemes azonban vigyázni ezzel a módszerrel, mert ha a szöveg nem fér ki, a dizájn szétesik. */
             text-decoration:none; /* Ne legyen aláhúzva a link. */
             color:white;
             background-color:chocolate;
