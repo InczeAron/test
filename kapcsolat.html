@@ -57,7 +57,7 @@ and open the template in the editor.
     }
         /*1 {border-style: dotted}
         h2 {border-style: double}*/
-        p {border-style: inset}
+        //p {border-style: inset}
         body {background-image: url('background.jpg')}
         
         </style>
