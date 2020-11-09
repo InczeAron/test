@@ -34,54 +34,85 @@ and open the template in the editor.
             padding:0.2em 0.3em;
             border-right:1px solid chocolate;
             }
-     .active{
+    .active{
             background-color:#C0C0C0;
+            }
+    /*.otven{
+            width: 50%;
+            display: block;
+            }
+    .harmincharom
+            {
+            width: 33.33%;
+            float: left;
+            display: block;
+            }
+    .szaz
+            {
+                width: 100%;
+                display: block;
+                position: relative;
+            }*/
+    .keret
+            {
+               border-style: inset; 
+            }
+    .kozep
+            {
+                margin: auto;
+                max-width: 800px;
+            }
+    .sorkoz
+            {
+                padding: 15px 0px;
             }
     a:hover { background-color:#C0C0C0} /* Az egérkurzorra színváltással reagál a menüpont. */
     li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */
     
     footer{
-        border-radius: 10px;
+    border-radius: 10px;
     margin: 10px;
     padding: 5px 20px;
     background-color: #87CEFA;
     }
         /*1 {border-style: dotted}
         h2 {border-style: double}*/
-        p {border-style: inset}
         body {background-image: url('background.jpg')}
         
         </style>
         <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
     </head>
     <body>
+        <div class="kozep">
         <ul>
         <li><a href="index.html" class="active">Bemutatkozás</a></li>
         <li><a href="termekek.html">Termékeink</a></li>
         <li><a href="kapcsolat.html">Elérhetőségek</a></li>
         <li><a href="uzenet.html">Írj nekünk</a></li>
-        </ul><br>
-        <header><p><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
-        <br><FONT COLOR="FFFFFF" FACE="Verdana, Arial">Mi vagyunk az egyszer volt sosem volt cég, 2050-ben fogunk alakulni.<br><br>
-        Sokminden elmondható rólunk de az az egy nem, hogy unalmasak lennénk!<br>
-        Cégünk mottóját a Mézga Család főcímdala jellemzi a legjobban:</FONT><br><br>
+        </ul>
         
+        <header><p class="keret"><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
+        <br><p><FONT COLOR="FFFFFF" FACE="Verdana, Arial">Mi vagyunk az egyszer volt sosem volt cég, 2050-ben fogunk alakulni.<br><br>
+        Sokminden elmondható rólunk de az az egy nem, hogy unalmasak lennénk!<br>
+        Cégünk mottóját a Mézga Család főcímdala jellemzi a legjobban:</FONT></p><br><br>
+
         <iframe width="340" height="280" src="https://www.youtube.com/embed/Z8zXDpWSMoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         <video width="340" height="280" controls>
         /eredeti méret: *width="425" height="349"*/
         <source src="video.mp4" type="video/mp4">
         A böngésző nem támogatja a video taget.
         </video>
-        <br><br>
+        
         <FONT COLOR="9ACD32" FACE="Cursive">
         <details>
-        <summary>hablatyol (ige)</summary>
+        <summary class="sorkoz">hablatyol (ige)</summary>
         <p>1. Összevissza beszél; komoly mondanivaló nélkül fecseg.<br>
         A kis óvodás csak hablatyol játék közben. Nem törökül beszélnek, hanem csak hablatyolnak a színészek.<br>
         2. Nagyon hadar; olyan gyorsan beszél, hogy alig lehet érteni.<br>
         Az izgatott gyerek úgy hablatyol, hogy nem is értem. Annyira hablatyolsz, hogy inkább mondd el újra az egészet, csak most lassabban.<br>
         Eredet [hablatyol < hablaty (hangutánzó) + -ol (igeképző)]</p></details></FONT>
         <br><footer>Elkövette: Incze Áron</footer>
-        
+        </div>
     </body>
 </html>

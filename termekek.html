@@ -60,8 +60,17 @@ tr.paros td {
             padding:0.2em 0.3em;
             border-right:1px solid chocolate;
             }
-     .active{
+    .active{
             background-color:#C0C0C0;
+            }
+    .keret
+            {
+               border-style: inset; 
+            }
+    .kozep
+            {
+                margin: auto;
+                max-width: 800px;
             }
     a:hover { background-color:#C0C0C0} /* Az egérkurzorra színváltással reagál a menüpont. */
     li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */
@@ -75,13 +84,14 @@ tr.paros td {
     <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
     </head>
     <body>
+        <div class="kozep">
         <ul>
         <li><a href="index.html">Bemutatkozás</a></li>
         <li><a href="termekek.html" class="active">Termékeink</a></li>
         <li><a href="kapcsolat.html">Elérhetőségek</a></li>
         <li><a href="uzenet.html">Írj nekünk</a></li>
         </ul><br>
-        <header><p><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
+        <header><p class="kozep"><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
         <br>
         <br><FONT COLOR="FFFFFF" FACE="Verdana, Arial">T E R M É K E I N K:
         <br><br>
@@ -105,6 +115,6 @@ tr.paros td {
           <td>Zsömle: 20 Ft</td>
      </tr>
 </table>
-        
+        </div>
     </body>
 </html>

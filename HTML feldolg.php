@@ -34,8 +34,17 @@ and open the template in the editor.
             padding:0.2em 0.3em;
             border-right:1px solid chocolate;
             }
-     .active{
+    .active{
             background-color:#C0C0C0;
+            }
+    .keret
+            {
+               border-style: inset; 
+            }
+    .kozep
+            {
+                margin: auto;
+                max-width: 800px;
             }
     a:hover { background-color:#C0C0C0} /* Az egérkurzorra színváltással reagál a menüpont. */
     li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */
@@ -55,13 +64,14 @@ and open the template in the editor.
         <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
     </head>
     <body>
+        <div class="kozep">
         <ul>
         <li><a href="index.html">Bemutatkozás</a></li>
         <li><a href="termekek.html">Termékeink</a></li>
         <li><a href="kapcsolat.html">Elérhetőségek</a></li>
         <li><a href="uzenet.html" class="active">Írj nekünk</a></li>
         </ul><br>
-        <header><p><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
+        <header><p class="keret"><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
         <br>
          <img src="images.gif" width="57" height="47" style="float: left" alt="Email gifje" title="Üzenet jött!">
         <br><FONT COLOR="FFFFFF" FACE="Verdana, Arial">
@@ -74,5 +84,6 @@ and open the template in the editor.
         ?>
          </FONT>
          <br><br><ul><a href="index.html">Vissza a kezdőlapra</a></ul>
+        </div>
     </body>
 </html>
