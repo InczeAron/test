@@ -32,7 +32,7 @@ and open the template in the editor.
             font-size: 90%;
             background-color:mediumvioletred;
             padding:0.2em 0.3em;
-            border-right:1px solid white;
+            border-right:0px solid white;
             }
     .active{
             background-color:#C0C0C0;
