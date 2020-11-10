@@ -30,9 +30,9 @@ and open the template in the editor.
             text-decoration:none; /* Ne legyen aláhúzva a link. */
             color:white;
             font-size: 90%;
-            background-color:chocolate;
+            background-color:mediumvioletred;
             padding:0.2em 0.3em;
-            border-right:1px solid chocolate;
+            border-right:1px solid white;
             }
     .active{
             background-color:#C0C0C0;
