@@ -34,16 +34,14 @@ and open the template in the editor.
             padding:0.2em 0.3em;
             border-right:0px solid white;
             }
-    .active {
-            background-color:#C0C0C0;
-            }
-    .keret  {
-               border-style: inset; 
-            }
+    .active {background-color:#C0C0C0;}
+    .keret  {border-style: inset;}
     .kozep  {
                 margin: auto;
                 max-width: 800px;
             }
+    .sorkoz {padding: 15px 0px;}
+    
     a:hover { background-color:#C0C0C0} /* Az egérkurzorra színváltással reagál a menüpont. */
     li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */
     
@@ -73,7 +71,7 @@ and open the template in the editor.
         <header><p class="keret"><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
         <br>
         <br>
-        <FONT COLOR="FFFFFF" FACE="Verdana, Arial">
+        <FONT COLOR="FFFFFF" FACE="Verdana, Arial" class="sorkoz">
             A cégünket megtalálhatja a lent említett címen, melyet a térképen is megjelöltünk.<br><br>
         
             <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=praha%20sokolsk%C3%A1%20486&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><!--<br><br></iframe><a href="https://www.whatismyip-address.com">what is my ip</a>--></div><style>.mapouter{position:relative;text-align:right;height:430px;width:430px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:500px;}</style></div>
@@ -81,13 +79,9 @@ and open the template in the editor.
             Címünk: Prága, Sokolská 486 - melyet a + jelre történő kattintással nagyíthat a térképen.
         <br>
         <br>
-        Ügyvezető: Bikk-Makk Károly
-        <br>
-        <br>
-        Tel: 06(20)/123-12-12
-        <br>
-        <br>
-            <a href="mailto:inczearon@gmail.com?subject=Honlappal kapcsolatban">Email</a>
+        <div class="sorkoz">Ügyvezető: Bikk-Makk Károly</div>
+        <div class="sorkoz">Tel: 06(20)/123-12-12</div>
+        <div class="sorkoz"><a href="mailto:inczearon@gmail.com?subject=Honlappal kapcsolatban">Email</a></div>
         </FONT>
         </div>
     </body>

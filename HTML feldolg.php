@@ -34,18 +34,14 @@ and open the template in the editor.
             padding:0.2em 0.3em;
             border-right:0px solid white;
             }
-    .active{
-            background-color:#C0C0C0;
-            }
-    .keret
-            {
-               border-style: inset; 
-            }
-    .kozep
-            {
+    .active {background-color:#C0C0C0;}
+    .keret  {border-style: inset;}
+    .kozep  {
                 margin: auto;
                 max-width: 800px;
             }
+    .sorkoz {padding: 15px 0px;}
+            
     a:hover { background-color:#C0C0C0} /* Az egérkurzorra színváltással reagál a menüpont. */
     li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */
     
@@ -65,12 +61,12 @@ and open the template in the editor.
     </head>
     <body>
         <div class="kozep">
-        <ul>
-        <li><a href="index.html">Bemutatkozás</a></li>
-        <li><a href="termekek.html">Szolgáltatások</a></li>
-        <li><a href="kapcsolat.html">Elérhetőségek</a></li>
-        <li><a href="uzenet.html" class="active">Írj nekünk</a></li>
-        </ul><br>
+            <ul>
+                <li><a href="index.html">Bemutatkozás</a></li>
+                <li><a href="termekek.html">Szolgáltatások</a></li>
+                <li><a href="kapcsolat.html">Elérhetőségek</a></li>
+                <li><a href="uzenet.html" class="active">Írj nekünk</a></li>
+            </ul><br>
         <header><p class="keret"><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
         <br>
          <img src="images.gif" width="57" height="47" style="float: left" alt="Email gifje" title="Üzenet jött!">
