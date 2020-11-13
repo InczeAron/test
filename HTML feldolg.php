@@ -71,7 +71,7 @@ and open the template in the editor.
         <br>
         <img src="images.gif" width="57" height="47" style="float: left" alt="Email gifje" title="Üzenet jött!">
         <br><FONT COLOR="FFFFFF" FACE="Verdana, Arial">
-        Önnek üzenete érkezett a honlapról!
+        <span style="padding-left: 1em">Önnek üzenete érkezett a honlapról!</span>
         <?php
         print "<P>\n\n<hr></P>";
         print "Feladó: <b>".$_POST['Felhasznalo']."</b><P><hr>\n\n</P>";
