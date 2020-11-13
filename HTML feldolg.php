@@ -33,6 +33,7 @@ and open the template in the editor.
             background-color:mediumvioletred;
             padding:0.2em 0.3em;
             border-right:0px solid white;
+            border-radius: 1px;
             }
     .active {background-color:#C0C0C0;}
     .keret  {border-style: inset;}
@@ -40,8 +41,7 @@ and open the template in the editor.
                 margin: auto;
                 max-width: 800px;
             }
-    .sorkoz {padding: 15px 0px;}
-            
+    
     a:hover { background-color:#C0C0C0} /* Az egérkurzorra színváltással reagál a menüpont. */
     li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */
     
@@ -69,14 +69,15 @@ and open the template in the editor.
             </ul><br>
         <header><p class="keret"><b>.:Üdvözöljük a Bikk-Makk Kft. honlapján:.<br></b></p></header>
         <br>
-         <img src="images.gif" width="57" height="47" style="float: left" alt="Email gifje" title="Üzenet jött!">
+        <img src="images.gif" width="57" height="47" style="float: left" alt="Email gifje" title="Üzenet jött!">
         <br><FONT COLOR="FFFFFF" FACE="Verdana, Arial">
-         Önnek üzenete érkezett a honlapról!<br><br>
+        Önnek üzenete érkezett a honlapról!
         <?php
-        print "Feladó: <b>".$_POST['Felhasznalo']."</b><P>\n\n</P>";
-        print "Email cím: <b>".$_POST['Email']."</b><P>\n\n</P>";
-        print "Neme: <b>".$_POST['nem']."</b><P>\n\n</P>";
-        print "Az üzenet szövege: <br><br>".$_POST['cim'];
+        print "<P>\n\n<hr></P>";
+        print "Feladó: <b>".$_POST['Felhasznalo']."</b><P><hr>\n\n</P>";
+        print "Email cím: <b>".$_POST['Email']."</b><P><hr>\n\n</P>";
+        print "Neme: <b>".$_POST['nem']."</b><P><hr>\n\n</P>";
+        print "Az üzenet szövege: ".$_POST['szov'];
         ?>
          </FONT>
          <br><br><ul><a href="index.html">Vissza a kezdőlapra</a></ul>

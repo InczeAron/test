@@ -33,6 +33,7 @@ and open the template in the editor.
             background-color:mediumvioletred;
             padding:0.2em 0.3em;
             border-right:0px solid white;
+            border-radius: 1px;
             }
     .active {background-color:#C0C0C0;}
     .keret  {border-style: inset;}
@@ -78,13 +79,13 @@ and open the template in the editor.
             <br>
             <input type="email" required placeholder="Add meg a mail címed" name="Email"><br>
         <br>
-            <input type="radio" name="nem" id="ffi" value="Férfi">
+            <input type="radio" name="nem" id="ffi" value="Férfi" checked>
             <label for="nem">Férfi</label><br>
-            <input type="radio" name="nem" id="no" value="Nő" checked>
+            <input type="radio" name="nem" id="no" value="Nő" >
             <label for="nem">Nő</label><br><br>
         Üzenet:<br>
-            <textarea name="cim" rows="5" cols="40" required></textarea>
-        <br>
+            <textarea name="szov" rows="5" cols="40" required></textarea>
+            <br><br>
             <input type="submit" value="Elküldés">
         </form>
         </FONT>
